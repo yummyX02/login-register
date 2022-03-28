@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="./login.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+    <div class="content">
+      <div class="left">
+          <h2>login to update your id</h2>
+          <div class="username">
+              <div class="user-left">
+                  <img  id = "imgs" src="name.png">
+              </div>
+              <div class="user-right">
+                  <input id="text-username" type="text" name = "user-name" placeholder="最少5位，除特殊字符" onfocus="this.placeholder=''"  />
+              </div>
+          </div>
+          <div class="password">
+              <div class="pass-left">
+                  <img  id = "imgs" src="password.png">
+              </div>
+              <div class="pass-right">
+                  <input id="text-password" type="password" name="pass-word" placeholder="最少6位，必须以大写字母开头" onfocus="this.placeholder=''"   />
+            </div>
+          </div>
+          <div class="btn">
+            <button id="login">login</button>
+            <button id="register">register</button>
+          </div>
+      </div>
+      <div class="right">
+          <img id = "picture" src="picture.jpeg" title="你相信光吗？">
+      </div>  
+    </div>
+</body>
+</html>
